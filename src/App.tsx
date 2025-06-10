@@ -1,8 +1,7 @@
-import { RouterProvider } from "react-router-dom";
-import { router } from "./rotas/routes";
+import { Router } from "./rotas";
 
 export function App() {
   return (
-    <RouterProvider router={router}/>
+    <Router />
   )
 }
