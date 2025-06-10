@@ -2,10 +2,6 @@
 
 Este projeto é uma aplicação web que apresenta uma lista de pessoas categorizadas de acordo com suas stacks de tecnologia. Foi desenvolvido utilizando **React**, **TypeScript**, **Tailwind CSS** e **React Router DOM**, em um ambiente configurado com **Vite**.
 
-## Demonstração
-
-Insira aqui um link ou captura de tela da aplicação funcionando, se disponível.
-
 ## Funcionalidades
 
 - Exibição de pessoas agrupadas por suas stacks.
