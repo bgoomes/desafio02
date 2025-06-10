@@ -1,5 +1,22 @@
+import { Card } from "../components/Card";
+import { Title } from "../components/Title";
+
+import { data } from "../data/data"
+
 export function Frontend(){
     return (
-        <h1>FrontEnd</h1>
+        <section className="w-full h-svh p-20 flex flex-col gap-8">
+            <Title text="Frontend Team" />
+            <article className="w-4xl grid grid-cols-2 gap-8">
+              {data.frontend.map((member, index) => (
+                <Card 
+                    key={index}
+                    avatar={member.avatar} 
+                    name={member.name} 
+                    role={member.role} 
+                />
+              ))}
+            </article>
+        </section>
     )
 }
